@@ -7,3 +7,9 @@ body {
   background-color: #ABAE98;
 }
 
+.main-container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  gap: 20px; 
+}
