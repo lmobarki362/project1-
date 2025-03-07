@@ -83,14 +83,14 @@ button {
 }
 
 button {
-  background-color: #007BFF;
-  color: white;
+  background-color: #FFFFFF;
+  color: #919E7D;
   cursor: pointer;
   border: none;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #D2D2D2;
 }
 
 #back {
