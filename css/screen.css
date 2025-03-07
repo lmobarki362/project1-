@@ -33,6 +33,7 @@ color: #ffffff
               0 0 30px rgba(255, 255, 255, 0.6);
   text-align: left;
   animation: glowing-border 2s infinite alternate ease-in-out;
+  color: white;
 }
 
 .container {
