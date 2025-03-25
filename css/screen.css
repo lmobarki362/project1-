@@ -47,7 +47,7 @@ label{
 
 .description {
   width: 100%;
-  background-color: #919E7D;
+  background-color: rgba(52, 52, 53, 0.7);
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 
@@ -60,7 +60,7 @@ label{
 .container {
   width: 90%;
   max-width: 350px;
-  background-color: #919E7D;
+  background-color: rgba(52, 52, 53, 0.7);
   border-radius: 20px;
   padding: 20px;
   display: flex;
