@@ -93,6 +93,20 @@ button:hover {
   background-color: #D2D2D2;
 }
 
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 6px 0;
+}
+
+.checkbox-group label {
+  font-size: 18px;
+  color: white;
+}
+
+
 @keyframes glowing-border {
   0% {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5),

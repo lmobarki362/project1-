@@ -33,14 +33,21 @@
           <input type="email" id="email" name="email" required>
 
           <label>Which activities are you most excited about?</label>
-          <label for="movies">Movie Nights</label>
-          <input type="checkbox" id="movies" name="activities" value="movies">
+          
+		  <div class="checkbox-group">
+            <input type="checkbox" id="movies" name="activities" value="movies">
+            <label for="movies">Movie Nights</label>
+          </div>
 
-          <label for="games">Games and Crafts</label>
-          <input type="checkbox" id="games" name="activities" value="games">
-
-          <label for="surprises">Special Surprises</label>
-          <input type="checkbox" id="surprises" name="activities" value="surprises">
+          <div class="checkbox-group">
+            <input type="checkbox" id="games" name="activities" value="games">
+            <label for="games">Games and Crafts</label>
+          </div>
+		  
+         <div class="checkbox-group">
+           <input type="checkbox" id="surprises" name="activities" value="surprises">
+           <label for="surprises">Special Surprises</label>
+         </div>
 
           <button type="submit">Submit</button>
         </form>
