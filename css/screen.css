@@ -6,6 +6,10 @@ body {
   height: 100vh; 
   margin: 0;
   text-align: center;
+  background-image: url('https://wallpapers.com/images/hd/studio-ghibli-boy-in-cape-29b9p287qonddqxm.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 h1 {
@@ -110,15 +114,7 @@ button:hover {
   background-color: #D2D2D2;
 }
 
-#back {
-  position: fixed; 
-  top: 0;
-  left: 0;
-  width: 100vw; 
-  height: 100vh; 
-  object-fit: cover;
-  z-index: -1; 
-}
+
 
 @media (min-width: 768px) {
   .main-container {
