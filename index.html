@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
   <title>Project 1</title>
@@ -8,46 +8,62 @@
   <link rel="stylesheet" media="screen" href="css/screen.css">
 </head>
 <body>
+  <div class="page-wrapper">
 
-  <div class="main-container"> 
+    <div class="main-container"> 
+      <div class="description">
+        <h1>Welcome To Film Club!</h1>
+        <p>Join us in a fun and friendly place where you can watch, laugh, and have adventures with your favorite Studio Ghibli characters.</p>
+        <h2>What to Expect in Our Club?</h2>
+        <ul>
+          <li>Movie Nights.</li>
+          <li>Fun Activities and Games (Draw, craft, and play with friends!)</li>
+          <li>Special Ghibli Surprises (Secret goodies just for members!)</li>
+        </ul>
+      </div>
 
-    <div class="description">
-      <h1>Welcome To Film Club!</h1>
-      <p>Join us in a fun and friendly place where you can watch, laugh, and have adventures with your favorite Studio Ghibli characters.</p>
-      <h2>What to Expect in Our Club?</h2>
-      <ul>
-        <li>Movie Nights.</li>
-        <li>Fun Activities and Games (Draw, craft, and play with friends!)</li>
-        <li>Special Ghibli Surprises (Secret goodies just for members!)</li>
-      </ul>
+      <div class="container">
+        <form id="contact" action="#" method="post" autocomplete="on">
+          <h1>Join Us!</h1>
+
+          <label for="name">What’s your name?</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Enter your email to receive updates:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label>Which activities are you most excited about?</label>
+          <label for="movies">Movie Nights</label>
+          <input type="checkbox" id="movies" name="activities" value="movies">
+
+          <label for="games">Games and Crafts</label>
+          <input type="checkbox" id="games" name="activities" value="games">
+
+          <label for="surprises">Special Surprises</label>
+          <input type="checkbox" id="surprises" name="activities" value="surprises">
+
+          <button type="submit">Submit</button>
+        </form>
+      </div> 
     </div>
 
-    <div class="container">
-      <form id="contact" action="#" method="post" autocomplete="on">
-        <h1>Join Us!</h1>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div class="wrap">
+          <img src="https://wallpapers.com/images/high/studio-ghibli-all-star-characters-tykbiycf0hjhjo39.webp" alt="Ghibli All Stars" />
+          <img src="https://wallpapers.com/images/high/studio-ghibli-chihiro-h7dzcd12sxpdqdrb.webp" alt="Chihiro" />
+          <img src="https://wallpapers.com/images/high/mirror-mirror-from-kikis-delivery-service-uwuwzwde9autg9c7.webp" alt="Kiki's Mirror" />
+          <img src="https://wallpapers.com/images/high/animated-fantasy-adventure-characters-kc5044n7e46owg3r.webp" alt="Fantasy Adventure" />
+          <img src="https://wallpapers.com/images/high/howls-moving-castle-howl-relaxing-wqwo0uzpau5d55pq.webp" alt="Howl Relaxing" />
+          <img src="https://wallpapers.com/images/high/howls-moving-castle-characters-joyful-moment-tjol4xh6rctwm2uz.webp" alt="Howl Characters" />
+          <img src="https://wallpapers.com/images/high/sen-to-chihiro-no-kamikakushi-under-the-sea-z02kan3izlmogcq4.webp" alt="Spirited Away Sea 1" />
+          <img src="https://wallpapers.com/images/high/sen-to-chihiro-no-kamikakushi-under-the-sea-z02kan3izlmogcq4.webp" alt="Spirited Away Sea 2" />
+        </div>
+      </div>
+    </div>
 
-        <label for="name">What’s your name?</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Enter your email to receive updates:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label>Which activities are you most excited about?</label>
-        <label for="movies">Movie Nights</label>
-        <input type="checkbox" id="movies" name="activities" value="movies">
-
-        <label for="games">Games and Crafts</label>
-        <input type="checkbox" id="games" name="activities" value="games">
-
-        <label for="surprises">Special Surprises</label>
-        <input type="checkbox" id="surprises" name="activities" value="surprises">
-
-        <button type="submit">Submit</button>
-      </form>
-    </div> 
-
-  </div> 
-
+  </div>
   <script src="js/script.js" async></script>
 </body>
 </html>
+
