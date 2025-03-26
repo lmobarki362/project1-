@@ -88,7 +88,8 @@ button {
   border-radius: 5px;
   width: 130px;
   align-self: center;
-  background-color: #ffffff;
+  background-color: #B8BABF;
+  color: #000000;
 }
 
 button:hover {
