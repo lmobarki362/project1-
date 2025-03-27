@@ -8,6 +8,7 @@ body {
   background-image: url('https://wallpapers.com/images/hd/studio-ghibli-boy-in-cape-29b9p287qonddqxm.webp');
   background-size: cover;
   background-position: center;
+  font-family: "Trirong", serif;
 }
 
 .page-wrapper {
@@ -144,7 +145,7 @@ button:hover {
 
 @media (min-width: 1024px) {
 .main-container {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   }
 
@@ -189,6 +190,14 @@ button:hover {
 @keyframes slide {
   to {
     transform: translateX(-1000px);
+  }
+}
+
+@media (max-width: 768px) {
+  input[type="text"],
+  input[type="email"],
+  button {
+    width: 90%;
   }
 }
 
